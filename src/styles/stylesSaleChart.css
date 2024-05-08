@@ -1,0 +1,97 @@
+.selectOption {
+  width: 100%;
+  position: relative;
+}
+
+.selectOption * {
+  border-radius: 0%;
+}
+
+select {
+  width: 100%;
+  overflow: hidden;
+  white-space: pre;
+  text-overflow: ellipsis;
+  border: solid 2px;
+  border-color: var(--border-color);
+}
+
+select:hover {
+  background-color: var(--menuColorHover);
+}
+
+option:hover {
+  background-color: var(--menuColorHover);
+}
+
+.menu-form {
+  display: flex;
+  gap: 10px;
+  height: 15%;
+  font-size: 50%;
+}
+
+.menu-label {
+  flex: 1 1 100%;
+  margin-bottom: 5px;
+  font-size: 11px;
+}
+
+.menu-input,
+.menu-button {
+  flex: 0 1 auto;
+  margin-bottom: 10px;
+}
+.menu-select {
+  background-color: var(--menuColor);
+  color: var(--fontColor);
+  flex: 0 1 auto;
+  margin-bottom: 10px;
+  outline: none;
+}
+.expandable-menu-select {
+  position: relative;
+  flex: 1 1 100%;
+  margin-bottom: 10px;
+  width: fit-content;
+  font-size: 10px;
+}
+.expandable-menu-select > * {
+  margin-top: 10% !important;
+  width: 100%;
+}
+.expandable-menu-select > * > img {
+  margin-top: -2% !important;
+  margin-left:23% !important;
+}
+.expandable-menu-select > * > * > * {
+  padding-left: 2px;
+}
+.chartContainer {
+  margin-left: 10%;
+  margin-right: 10%;
+  height: 80%;
+}
+
+@media screen and (max-width: 1310px) {
+  .menu-form{
+    height:100%;
+    flex-direction: column;
+  }
+  .menu-select {
+    margin-left: auto;
+    margin-right: auto;
+    width:30%;
+  }
+  .expandable-menu-select {
+    margin-left: 25%;
+    width:50%;
+  }
+  .menu-select:hover {
+    min-width: initial;
+  }
+  .chartContainer{
+    min-height: 250px;
+    flex: 1 1 100%;
+  }
+}

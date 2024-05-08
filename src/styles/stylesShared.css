@@ -1,0 +1,59 @@
+.actionButton {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+  background-color: #0f7287;
+  text-align: center;
+  padding: 3px;
+  border-style: solid;
+  border-color: #464646;
+  border-width: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.actionButton:hover {
+  background-color: var(--actionButtonColorHover);
+}
+
+.menuOption {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  cursor: pointer;
+  background-color: var(--menuColor);
+  border-color: #464646;
+  text-align: center;
+  padding: 3px;
+  padding-left: 20px;
+  border-style: solid;
+  border-width: 2px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.menuOption:hover {
+  background-color: var(--menuColorHover);
+}
+
+.dataContainer {
+  cursor: default;
+  background-color: var(--menuColor);
+  border-color: #464646;
+  text-align: center;
+  padding: 3px;
+  padding-left: 20px;
+  border-style: solid;
+  border-width: 2px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}

@@ -1,0 +1,19 @@
+#textOffert {
+  margin-left: -35%;
+  margin-bottom: 2%;
+}
+#offerts {
+  margin-top: 4%;
+  margin-bottom: 13%;
+}
+.containerOffert {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 22%;
+  margin-top: 3%;
+  width: 90%;
+  min-height: 70px;
+  height: 1px;
+  box-sizing: border-box;
+}

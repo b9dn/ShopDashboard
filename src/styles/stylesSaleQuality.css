@@ -1,0 +1,60 @@
+#mainMark {
+  display: flex;
+  height: 45%;
+}
+
+#mainMark > * {
+  flex: auto;
+  align-items: center;
+}
+
+.markText {
+  width: 100%;
+}
+
+#categories {
+  display: flex;
+  height: 40%;
+  justify-content: center;
+  align-items: center;
+}
+
+#categories p {
+  margin: 0;
+}
+
+#textDiv {
+  height: 15%;
+  place-content: center;
+  display: grid;
+}
+
+.categoryBox {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--menuColor);
+  height: 100%;
+  margin-left: 1%;
+  margin-right: 1%;
+  border-style: solid;
+  border-width: 2px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+}
+
+.categoryName {
+  font-size: small;
+  flex: 0 0 25%;
+  display: grid;
+  place-content: center;
+  border-bottom: solid 2px #464646;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+}
+
+.circularCategoryDiv {
+  display: flex;
+  align-items: stretch;
+  place-content: center;
+  margin: auto;
+  flex: 1;
+  max-height: 60%;
+}

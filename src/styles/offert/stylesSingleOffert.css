@@ -1,0 +1,34 @@
+.miniature {
+  float: left;
+  width: 20%;
+  height: 100%;
+  margin-bottom: 2%;
+}
+.nameOfOffert {
+  float: left;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 6.5%;
+  width: 55%;
+}
+.dataOffert {
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  clear: left;
+  margin-bottom: 2%;
+}
+.circle {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #1288a3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.circleInside {
+  width: 92%;
+  height: 92%;
+  border-radius: 50%;
+}

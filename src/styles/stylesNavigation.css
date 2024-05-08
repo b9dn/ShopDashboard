@@ -1,0 +1,199 @@
+#body {
+  margin: 0px;
+  padding: 0px;
+  color: var(--fontColor);
+  --border-color: #464646;
+}
+body {
+  background-color: var(--backgroundContent);
+}
+
+body * {
+  border-color: var(--border-color);
+}
+.Links {
+  color: var(--fontColor);
+  text-decoration: none;
+}
+
+#topMenu {
+  position: relative;
+  width: 100% -4px;
+  height: 74.9px;
+  border-style: solid;
+  border-width: 2px;
+  box-sizing: border-box;
+  background-color: var(--navigationBar);
+}
+
+#logo {
+  font-family: "Pontano Sans";
+  font-size: 41.12px;
+  width: 25vw;
+  background-color: var(--menuColor);
+  float: left;
+  margin-left: 1%;
+  margin-top: 5px;
+  border-style: solid;
+  text-align: center;
+  border-width: 2px;
+  padding: 3px;
+}
+
+#login {
+  font-size: 30.44px;
+  height: 61.58x;
+  width: 20vw;
+  float: right;
+  text-align: center;
+  margin-top: 10px;
+  margin-right: 1%;
+}
+
+#loggedInfo {
+  margin-top: 5px;
+  float: right;
+  margin-right: 1%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#loggedInfo:hover {
+  filter: brightness(0.7);
+}
+
+#nameOfUser {
+  font-size: 35px;
+  margin-right: 20px;
+}
+
+#leftMenu {
+  float: left;
+  width: 18%;
+  height: calc(100vh - 74.9px);
+  border-style: solid;
+  border-width: 2px;
+  border-top-width: 0px;
+  box-sizing: border-box;
+  background-color: var(--navigationBar);
+}
+
+.menuOptionLeftMenu {
+  margin-top: 10%;
+  margin-left: 5%;
+  margin-right: 5%;
+  height: 65.92px;
+  font-size: 20px;
+}
+
+.content {
+  float: left;
+  height: 1px;
+  min-height: calc(100vh - 74.9px);
+  width: 82%;
+  border-style: solid;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 2px;
+  border-bottom-width: 2px;
+  box-sizing: border-box;
+  background-color: var(--backgroundContent);
+}
+
+#imageOfAccount {
+  width: 65px;
+  height: 65px;
+}
+
+#leftMenuMobileExpanded {
+  float: left;
+  display: none;
+  width: 18%;
+  height: calc(100vh - 74.9px);
+  border-style: solid;
+  border-width: 2px;
+  border-top-width: 0px;
+  box-sizing: border-box;
+  background-color: var(--navigationBar);
+}
+#menuMobile {
+  position: fixed;
+  top: 20%;
+  left: 3%;
+  transform: translateY(-50%);
+  height: 50px;
+  width: 50px;
+  background-color: var(--navigationBar);
+  display: none;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 2px;
+}
+@media screen and (max-width: 1310px) {
+  #imageOfAccount {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 15px;
+  }
+  #nameOfUser {
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+  .content {
+    border-right: 0px;
+    border-bottom: 0px;
+    margin-left: 50px;
+  }
+  #login {
+    font-size: 20px;
+  }
+  #logo {
+    font-size: 25px;
+    width: auto;
+    padding-left: 4vw;
+    padding-right: 4vw;
+  }
+  #topMenu {
+    height: 60px;
+  }
+  @keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  #menuMobile {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    cursor: pointer;
+    font-size: 33.5px;
+    color: var(--fontColor);
+    border-style: solid;
+    border-width: 2px;
+    border-color: #464646;
+    text-align: center;
+    display: block;
+    z-index: 3;
+  }
+  #leftMenu {
+    display: none;
+  }
+  #leftMenuMobileExpanded {
+    animation: 0.55s ease-in-out 0s 1 slideInFromLeft;
+    z-index: 3;
+    float: left;
+    bottom: calc(10vh + 100% - 100vh + 60px);
+    top: 0;
+    width: 250px;
+    position: fixed;
+    display: block;
+    height: 100%;
+    border-top-width: 2px;
+  }
+}

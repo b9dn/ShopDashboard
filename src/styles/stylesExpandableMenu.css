@@ -1,0 +1,26 @@
+#containerOfOpitons {
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+  z-index: 1;
+}
+#containerOfOpitons > li {
+  float: none;
+  margin-top: -2px;
+  clear: both;
+}
+.expandedOptions {
+  margin-top: -2px;
+  z-index: 1;
+}
+.symbol {
+  z-index: 2;
+  margin-left: 30%;
+  margin-top: 4px;
+  position: absolute;
+  pointer-events: none;
+}
+#menu {
+  position: relative;
+}

@@ -1,0 +1,28 @@
+.iconUser {
+  float: left;
+  width: 25%;
+  height: 25%;
+}
+.star {
+  float: left;
+  width: 20%;
+  height: 20%;
+  margin-bottom: 10%;
+}
+.comment {
+  clear: left;
+  margin-right: 5%;
+  padding: 3px;
+  margin-bottom: 3%;
+}
+.container {
+  float: left;
+  margin-left: 10%;
+  margin-top: 1%;
+  margin-right: 5%;
+  width: 50%;
+}
+.username {
+  padding-left: 3px;
+  justify-content: center;
+}
