@@ -5,7 +5,7 @@ A minimalist sales management panel built with React and custom CSS. Using: Reac
 ### Quick Start
 1. Clone the repository:
    ```bash
-   git clone [URL to your repository]
+   git clone https://github.com/b9dn/shopDashboard
 2. Install dependencies:
     ```bash
    npm install
