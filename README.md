@@ -1,6 +1,6 @@
 ## ShopDashboard
 
-A minimalist sales management panel built with React and custom CSS. Using: React, Redux, Chart.js.
+A minimalist sales management panel built with React and custom CSS. Using: React, React Router, Redux, Chart.js.
 
 ### Quick Start
 1. Clone the repository:
